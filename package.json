@@ -1,0 +1,38 @@
+{
+  "name": "create-idtool-template",
+  "version": "1.0.3",
+  "description": "A template to test idtool package.",
+  "main": "index.js",
+  "author": "NullOnRise",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "id-tool",
+    "idtool",
+    "base64",
+    "secretkey",
+    "security",
+    "utf8",
+    "idgen",
+    "iddecode",
+    "template"
+  ],
+  "bin": {
+    "create-idtool-template": "index.js"
+  },
+  "license": "MIT",
+  "homepage": "https://idtool.nullteam.fun",
+  "bugs": {
+    "url": "https://github.com/NullGang/create-idtool-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NullGang/create-idtool-template.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs": "^0.0.1-security",
+    "id-tool": "^1.0.2"
+  }
+}
